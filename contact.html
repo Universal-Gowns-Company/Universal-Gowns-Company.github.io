@@ -30,6 +30,10 @@ body {
 	font-size: 250%;
 	margin-top: 10%;
 }
+
+.appoint {
+	margin-top: 10%;
+}
 </style>
 
 <body>
@@ -49,12 +53,72 @@ body {
 <div class="w3-container w3-center w3-animate-zoom">
 	<header class="intro">
 	Address: M.C.A 3370 Adampur Doaba, Jalandhar, Punjab
-	<br>Phone Numbers: +91 98158-81016, +91 99156-78080, 0181-2754000
+	<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+	<div class="elfsight-app-fa50cf2d-5e45-4cb0-a8e0-45f2bdc9bc4c"></div>
+	<br>Phone Numbers: 
+	<a href="tel:+91 98158-81016">+91 98158-81016, </a>
+	<a href="tel:+91 99156-78080">+91 99156-78080, </a>
+	<a href="tel:+91 0181-2754000">0181-2754000</a>
 	<br>Email: <a href="mailto:example@tutorialspark.com">annualconvocation@gmail.com</a>
 	</header>
 </div>
 
+<h1 class="appoint">Or make an appointment here:</h1>
+<!-- Start BawkBox Code-->
+<script data-sil-id="5fcf4ce71eb8fa0012b84594">
+var loadWidget = function() { 
+var d = document, w = window, l = window.location,p = l.protocol == "file:" ? "http://" : "//";
+if (!w.WS) w.WS = {}; 
+	c = w.WS; 
+	var m=function(t, o){ 
+	var e = d.getElementsByTagName("script"); 
+	e=e[e.length-1]; var n = d.createElement(t); 
+if (t=="script") {n.async=true;} for (k in o) n[k] = o[k]; 
+	e.parentNode.insertBefore(n, e)}; 
+	m('link', { href: p+'bawkbox.com/Widgets/day-calendar/day-calendar.css', rel: 'stylesheet', type: 'text/css'}); m("script", { 
+		src: p + "bawkbox.com/widget/day-calendar/5fcf4ce71eb8fa0012b84594?page=" +encodeURIComponent(l+''), type: 'text/javascript' });
+		 c.load_net = m; }; 
+if(window.Squarespace){ 
+	document.addEventListener('DOMContentLoaded', loadWidget); 
+	setTimeOut(function(){ 
+		document.addEventListener('DOMContentLoaded', loadWidget); }, 
+		3000) } 
+else {
+ loadWidget() 
+} 
+</script>
+<div class="sil-widget-day-calendar sil-widget" id="sil-widget-5fcf4ce71eb8fa0012b84594">
+	<a href="//bawkbox.com/install/day-calendar">Availability Calendar</a>
+</div>
 
+<!-- End BawkBox Code-->
+
+<!--JQuery-->  
+<script type="text/javascript" src="jquery-3.3.1.min.js"></script>  
+<!--Floating WhatsApp css-->  
+<link rel="stylesheet" href="floating-wpp.min.css">  
+<!--Floating WhatsApp javascript-->  
+<script type="text/javascript" src="floating-wpp.min.js"></script>
+<!--Div where the WhatsApp will be rendered-->  
+<div id="WAButton"></div>  
+<script type="text/javascript">  
+   $(function () {
+           $('#WAButton').floatingWhatsApp({
+               phone: '915678080', //WhatsApp Business phone number
+               headerTitle: 'Chat with us on WhatsApp!', //Popup Title
+               popupMessage: 'Hello, how can we help you?', //Popup Message
+               showPopup: true, //Enables popup display
+               buttonImage: '<img src="whatsapp.svg"/>', //Button Image
+               //headerColor: 'crimson', //Custom header color
+               //backgroundColor: 'crimson', //Custom background button color
+               position: "right" //Position: left | right
+
+           });
+       });
+</script>  
+
+<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-943cde77-dd56-416e-9707-7a286d3247f0"></div>
 
 </body>
 </html>
